@@ -1,0 +1,7 @@
+<section>
+  <input type="text" [(ngModel)]="url" placeholder="enter the url" />
+  <button (click)="captureWebPageContent()">Capture Web Page Content</button>
+</section>
+{{ url }}
+<button (click)="exportAsPdf()">Export as PDF</button>
+<section id="pdf-content" [innerHTML]="pdfContent"></section>

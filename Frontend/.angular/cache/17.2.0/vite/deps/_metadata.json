@@ -1,0 +1,73 @@
+{
+  "hash": "fc62f577",
+  "configHash": "b1281421",
+  "lockfileHash": "6c7a2e0c",
+  "browserHash": "c39642ec",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "af43b993",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "7aaffa73",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "a80c1c2e",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "6cff27a5",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../../../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "8410ecec",
+      "needsInterop": false
+    },
+    "html2canvas": {
+      "src": "../../../../../node_modules/html2canvas/dist/html2canvas.esm.js",
+      "file": "html2canvas.js",
+      "fileHash": "c5ad4118",
+      "needsInterop": false
+    },
+    "jspdf": {
+      "src": "../../../../../node_modules/jspdf/dist/jspdf.es.min.js",
+      "file": "jspdf.js",
+      "fileHash": "d8614582",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "index.es-W7XN4ETW": {
+      "file": "index__es-W7XN4ETW.js"
+    },
+    "chunk-DGYVUDJ5": {
+      "file": "chunk-DGYVUDJ5.js"
+    },
+    "chunk-VESR2GMN": {
+      "file": "chunk-VESR2GMN.js"
+    },
+    "chunk-UMXKHIZH": {
+      "file": "chunk-UMXKHIZH.js"
+    },
+    "chunk-DJ6L3VWC": {
+      "file": "chunk-DJ6L3VWC.js"
+    },
+    "purify.es-FJLXLX6K": {
+      "file": "purify__es-FJLXLX6K.js"
+    },
+    "chunk-CPNXOV62": {
+      "file": "chunk-CPNXOV62.js"
+    }
+  }
+}
