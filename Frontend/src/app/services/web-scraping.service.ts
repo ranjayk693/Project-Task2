@@ -6,12 +6,23 @@ import axios from 'axios';
 })
 export class WebScrapingService {
   constructor() {}
-  // async scrapeWebPage(url: string): Promise<string> {
-  //   const response = await axios.get(url);
-  //   return "";
+  // sendData(data:string){
+  //   return axios.post("http://localhost:3000/submit",{url:data})
   // }
 
-  async getData() {
-    return await axios.get('http://localhost:3000/api/data');
+  // sendData(data: string) {
+  //   return axios.post("http://localhost:3000/submit", { url: data })
+  //     .then((response) => {
+  //       console.log("response from server side :", response);
+  //       return response;
+  //     })
+  //     .catch((error) => {
+  //       console.log("Failed to connect with Server");
+  //       // throw error;
+  //     });
+  // }
+  sendData(data: string) {
+    return axios.post("http://localhost:3000/submit", { url: data })
+    
   }
 }

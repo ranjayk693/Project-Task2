@@ -1,7 +1,7 @@
-<section>
-  <input type="text" [(ngModel)]="url" placeholder="enter the url" />
-  <button (click)="captureWebPageContent()">Capture Web Page Content</button>
-</section>
-{{ url }}
-<button (click)="exportAsPdf()">Export as PDF</button>
-<section id="pdf-content" [innerHTML]="pdfContent"></section>
+<form (submit)="onSubmitURL()">
+  <label for="website-link">Enter the Website URL</label>
+  <input type="text" [formControl]="url" id="website-link" placeholder="Enter the Webiste url along with https">
+  <button type="submit">click here to send the data</button>
+</form>
+
+<button (click)="exportAsPdf()" [disabled]="!IsSpin">Export PDF</button>
